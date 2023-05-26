@@ -24,6 +24,9 @@ nav {
     background-color: #1F2937;
     padding: 0 3rem;
     justify-content: space-between;
+    flex: 1 0 auto;
+    min-height: 4em;
+
 }
 
 .logo {
@@ -39,6 +42,10 @@ ul {
     display: flex;
     list-style: none;
     gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
 }
 
 a, a:visited, a:hover, a:active {
