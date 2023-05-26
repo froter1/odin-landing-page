@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 *, *::before, *::after {
@@ -15,4 +16,33 @@ body {
 .wrapper {
     display: flex;
     flex-direction: column;
+    
+}
+
+nav {
+    display: flex;
+    background-color: #1F2937;
+    padding: 0 3rem;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    font-size: 24px;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
