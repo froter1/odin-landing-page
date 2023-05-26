@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 *, *::before, *::after {
@@ -52,4 +52,53 @@ a, a:visited, a:hover, a:active {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation {
+    display: flex;
+    background-color:#1F2937;
+    padding: 5rem 3rem;
+    gap: 3rem;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    gap: 0.6em;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.left > .text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left > button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 8px;
+    flex: 0 1 auto;
+    max-width: fit-content;
+    padding: 0.5em 2em;
+}
+
+.right {
+    display: flex;
+    flex-basis: 50%;
+    background-color: grey;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
 }
