@@ -7,6 +7,11 @@ html {
     box-sizing: inherit;
 }
 
+p {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     min-height: 100vh;
     margin: 0;
@@ -16,7 +21,6 @@ body {
 .wrapper {
     display: flex;
     flex-direction: column;
-    
 }
 
 nav {
@@ -87,6 +91,7 @@ main {
 .left > button {
     background-color: #3882F6;
     color: #F9FAF8;
+    font-weight: bold;
     border: none;
     border-radius: 8px;
     flex: 0 1 auto;
@@ -102,3 +107,41 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 4rem;
+}
+
+.photos > p {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    max-width: fit-content;
+    align-self: center;
+    margin: 2rem;
+}
+
+.content {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.card {
+    flex: 0 1 150px;
+    gap: 0.5rem;
+}
+
+.photo {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.card > p {
+    text-align: center;
+}
+
