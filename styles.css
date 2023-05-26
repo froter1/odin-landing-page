@@ -212,3 +212,16 @@ button:hover {
     background-color: #F9FAF8;
     color: black
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 2rem;
+}
+
+footer p {
+    color: #F9FAF8;
+    font-weight: bold;
+}
